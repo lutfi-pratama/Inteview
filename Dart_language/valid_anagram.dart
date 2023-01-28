@@ -1,15 +1,3 @@
-//  Definition for singly-linked list.
-class ListNode {
-  int val;
-  ListNode? next;
-  ListNode([this.val = 0, this.next]);
-}
-
-class LinkedList {
-  ListNode head;
-  LinkedList(this.head);
-}
-
 class Solutions {
   bool validAnagram(String s, String t) {
     final sortedS = s.split('')..sort();
